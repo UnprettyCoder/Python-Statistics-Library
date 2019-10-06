@@ -16,7 +16,7 @@ def DPE(DistName, x, y, startX, endX, *args):
     ax.bar(x[startX:endX+1], y[startX:endX+1], color="red", alpha=0.5);
     ax.set(xlabel="X", ylabel="f(X)", title=f"[X~{DistName}{args}] Range Probability [{startX} < =X <= {endX}]");
     ax.grid();
-    plt.savefig("GraphSave/graphExample.png");
+    plt.savefig("../GraphSave/graphExample.png");
     plt.show();
     print(f"P[{startX} <= X <= {endX}] = {ProbabilityValue.DP(x, y, startX, endX)}");
     print(f"[X~{DistName}{args}] Range Probability\n");
@@ -36,7 +36,7 @@ def CPE(DistName, x, y, startx, endx, *args):
     ax.bar(x[startX:endX+1], y[startX:endX+1], color="green", alpha=0.3, width=0.01);
     ax.set(xlabel="X", ylabel="f(X)", title=f"[X~{DistName}{args}] Range Probability [{startx} <= X <= {endx}]");
     ax.grid();
-    plt.savefig("GraphSave/graphExample.png");
+    plt.savefig("../GraphSave/graphExample.png");
     plt.show();
     print(f"P[{startx} <= X <= {endx}] = {ProbabilityValue.CP(x, y, startx, endx)}");
     print(f"[X~{DistName}{args}] Range Probability\n");

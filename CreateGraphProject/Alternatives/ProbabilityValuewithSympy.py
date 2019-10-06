@@ -1,6 +1,5 @@
 import sympy as sy;
 
-# It is just an alternative, not operated in this Library
 # simple integrating method in Sympy Library [CP]
 # simple Sigma method using while function [DP]
 # Error -> if Fomula Function have many parameters, cannot use simple func(x)

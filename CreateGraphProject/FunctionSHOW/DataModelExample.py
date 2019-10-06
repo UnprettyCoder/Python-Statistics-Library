@@ -17,6 +17,7 @@ A.addList([1, 2, 3, 4, 5], [0.2, 0.1, 0.3, 0.1, 0.3]);
 
 # Draw Graph(bar or plot) using showGraph(switch) method
 # switch can have "bar" or "plot" value
+# Of course, the graph is saved as "graphExample.png" in "GraphSave" directory
 
 A.showGraph("plot");
 A.showGraph("bar");

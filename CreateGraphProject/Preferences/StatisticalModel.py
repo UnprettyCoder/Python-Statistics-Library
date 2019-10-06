@@ -33,7 +33,7 @@ class DataModel:
             ax.plot(x, y, color="red", alpha=0.5);
         ax.set(xlabel="x", ylabel="y", title=f"{self.dataName}");
         ax.grid();
-        plt.savefig("GraphSave/graphExample.png");
+        plt.savefig("../GraphSave/graphExample.png");
         plt.show();
 
     def getDict(self):

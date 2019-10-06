@@ -27,7 +27,7 @@ def barChart(x_params, y_values, switch, *args):
         ax.set(xlabel="X", ylabel="F(x)", title=f"{plus+args[0]} ~ {[arg for arg in args[1:]]}");
     ax.grid();
 
-    plt.savefig("GraphSave/graphExample.png");
+    plt.savefig("../GraphSave/graphExample.png");
     plt.show();
 
 def plot(x_params, y_values, switch, *args):
@@ -41,5 +41,5 @@ def plot(x_params, y_values, switch, *args):
         ax.set(xlabel="X", ylabel="F(x)", title=f"{plus + args[0]} ~ {[arg for arg in args[1:]]}");
     ax.grid();
 
-    plt.savefig("GraphSave/graphExample.png");
+    plt.savefig("../GraphSave/graphExample.png");
     plt.show();
