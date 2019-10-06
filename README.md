@@ -30,3 +30,9 @@ GraphSave package is for saving image files.
 Alternatives package can be ignored.
 
 You can use the Library if you read the comments in python files.
+
+## 2019.10.06 Update [Error Modification]
+
+Savefile path is incorrect so the program didn't work.
+
+The Error is fixed.
